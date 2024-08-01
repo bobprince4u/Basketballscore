@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&family=Orbitron:wght@400..900&family=Play:wght@400;700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Play:wght@400;700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Play:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title></title>
+</head>
+<body>
+
+    <main>
+        <h2 id="header">BASKETBALL SCOREBOARD</h2>
+        <hr>
+        <div class="container">
+       <div class="container_scoreboard">
+       
+
+<div class="home_scoreboard">
+
+<h3>HOME</h3>
+<p id="homeScore">0</p>
+<button class="btn_counter" onclick="updateHomeScore()">+1</button>
+<button class="btn_counter" onclick="updateHomeScore2()">+2</button>
+<button class="btn_counter" onclick="updateHomeScore3()">+3</button>
+
+</div>
+
+<div class="timer">
+    <p id="timer-time">00:00</p>
+    <h4>Period</h4>
+    <p id="period">0</p>
+</div>
+
+<div class="guest_scoreboard">
+
+    <h3>GUEST</h3>
+    <p id="guestScore">0</p>
+    <button class="btn_counter" onclick="updateGuestScore()">+1</button>
+    <button class="btn_counter" onclick="updateGuestScore2()">+2</button>
+    <button class="btn_counter" onclick="updateGuestScore3()">+3</button>
+     
+
+</div>
+
+
+        
+       </div>
+
+       <div class="btn_game">
+
+        <button class="btn_newgame" onclick="newGame()">New Game</button>
+    
+    </div>
+
+        </div>
+    
+
+        <script src="index.js"></script>
+    </main>
+    
+</body>
+</html>
